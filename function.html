@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This IS Javascript Tutorial</title>
+        <style>
+            body{
+                background: #f09f9f;
+            }
+        </style>
+    </head>
+    
+
+    <body>
+        <p>Hello World!</p>
+    </body>
+    
+    <script>
+        function greeting(){
+            return 'hello! how are you.';
+        }
+        console.log(greeting());
+
+        function addition(x,y){
+            return (x+y);
+        }
+
+        function substract(x,y){
+            return (x-y);
+        }
+
+        function multiply(x,y){
+            return (x*y);
+        }
+
+        function divide(x,y){
+            return (x/y);
+        }
+
+        function factorial(x){
+
+            if (x == 0 || x == 1)
+            return 1;
+            else
+            return x * factorial(x-1);  // (5 * (5-1)) = 20 * 12 = 120
+                                        // (4 * (4-1)) = 12
+                                        // (3 * (3-1)) = 6
+                                        // (2 * (2-1)) = 2
+                                        // (5 * (5-1)) = 1
+        }
+
+        let a = 2, b = 3;
+        console.log(addition(2,3));
+        console.log(substract(2,3));
+        console.log(multiply(2,3));
+        console.log(divide(2,3));
+        console.log(factorial(5));
+
+    </script>
+</html>
+
+</html>

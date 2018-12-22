@@ -32,9 +32,17 @@
        //Case statement
        switch(student.age){
            case student.age < 18:
-                console.log("cannot watch");
+                //console.log(student.name + " cannot watch");
+                console.log(`${student.name} cannot watch`);
                 break;
-            default: console.log("old enough to watch");
+            default: console.log(`${student.name} is old enoguh to watch it`);
+       }
+
+       switch(student.name){
+           case "Ali":
+                console.log("Helo " + student.name);
+                break;
+            default: console.log("You're not ALI");
        }
     </script>
 </html>
