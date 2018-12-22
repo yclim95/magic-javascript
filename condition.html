@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This IS Javascript Tutorial</title>
+        <style>
+            body{
+                background: #f09f9f;
+            }
+        </style>
+    </head>
+    
+
+    <body>
+        <p>Hello World!</p>
+    </body>
+    
+    <script>
+       let student;
+       student = {
+           name: "Ali",
+           age: 17,
+           father: "Baba",
+       };
+       if(student.age < 18){
+           console.log("Ali cannot watch the movie");
+       }else if (student.age < 25){
+        console.log("Ali can watch the movie but");
+       }else{
+           console.log("Ali is old enough to watch it");
+       }
+
+       //Case statement
+       switch(student.age){
+           case student.age < 18:
+                console.log("cannot watch");
+                break;
+            default: console.log("old enough to watch");
+       }
+    </script>
+</html>
+
+</html>
